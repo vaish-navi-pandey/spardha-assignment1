@@ -1,0 +1,86 @@
+/* Basic styling for the app */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(48, 241, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  .auth-container {
+    width: 500px;
+    height:80%;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    background-color:  rgb(171, 253, 240);
+    box-shadow: 0px 0px 100px rgba(21, 21, 21, 0.344);
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  
+  button {
+    background-color: rgb(250, 87, 87);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  
+  button:hover {
+    background-color: rgb(249, 6, 6);
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
+  .auth-footer p link {
+    color: rgb(250, 40, 40);
+    text-decoration: none;
+  }
+  
+  .auth-footer p link:hover{
+    color: rgb(250, 40, 40);
+
+  }
+  .icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+  .icon {
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  .auth-button-login{
+    width:100%;
+  }
+  
+  
+  
